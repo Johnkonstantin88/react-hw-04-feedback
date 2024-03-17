@@ -3,9 +3,6 @@ import { Button, List } from './FeedbackOptions.styled';
 export const FeedbackOptions = ({
   options,
   onLeaveFeedback,
-  onLeaveGoodFeedback,
-  onLeaveNeutralFeedback,
-  onLeaveBadFeedback,
 }) => {
   return (
     <List>

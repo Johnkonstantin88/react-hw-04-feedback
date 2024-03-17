@@ -20,5 +20,7 @@ export const Button = styled.button`
   border-radius: 10px;
   background-color: aliceblue;
   box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.75);
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.2s linear;
   &:hover {background-color: #abcdef}
 `;
